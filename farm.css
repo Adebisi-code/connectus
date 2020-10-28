@@ -1,0 +1,150 @@
+body{
+    background-image: url("ConnectUS\ bg.gif");
+    margin:0;
+    border:0;
+    color:white;
+}
+#connect{
+    font-weight:bold;
+    font-size:24px;
+    color:white;
+}
+#farm2{
+    width:13%;
+    height:40%;
+    border: 2px solid blue;
+    border-radius:40px 40px;
+    margin-left:85%;
+    text-align:center;
+    font-weight:bold;
+    margin-top:-3%;
+
+}
+#farm2 a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+.farm-div{
+    text-align:center;
+    background-color:white transparent;
+}
+#img1{
+    margin-left:-5%;
+}
+#img2{
+    margin-left:55%;
+}
+#this{
+    font-size:24px;
+    color:rgb(2,2,29);
+    margin-left:15%;
+}
+.icon2-div{
+    background: skyblue;
+    width:50%;
+    height:80%;
+    border-radius:10%;
+    margin-left:25%;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    line-height:44px;
+}
+#now-div{
+    background:green transparent;
+    height:25%;
+    margin-top:20%;
+    margin-left:35%;
+    border:2px solid rgb(2,2,29);
+    border-radius:40px 40px;
+    width:35%;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+}
+#now-div a{
+    text-decoration:none;
+    color:white;
+}
+
+
+@media only screen and (max-width: 1000px){
+    #farm2{
+        width:16%;
+        height:40%;
+        border: 2px solid blue;
+        border-radius:40px 40px;
+        margin-left:80%;
+        text-align:center;
+        font-weight:bold;
+        margin-top:-3%;
+    
+    }
+    .icon2-div{
+        background: skyblue;
+        width:80%;
+        height:90%;
+        border-radius:10%;
+        margin-left:10%;
+        color:white;
+        font-size:20px;
+        text-align:center;
+        line-height:44px;
+        margin-top:30%;
+    }
+
+    .farm-div{
+        text-align:center;
+        background-color:white transparent;
+        margin-top:15%;
+        font-size:28px;
+        line-height:40px;
+    }
+    #this{
+        font-size:26px;
+        color:rgb(2,2,29);
+        margin-left:5%;
+
+    }
+}
+@media only screen and (width: 1024px){
+    #farm2{
+        width:16%;
+        height:40%;
+        border: 2px solid blue;
+        border-radius:40px 40px;
+        margin-left:80%;
+        text-align:center;
+        font-weight:bold;
+        margin-top:-3%;
+    
+    }
+    .icon2-div{
+        background: skyblue;
+        width:90%;
+        height:95%;
+        border-radius:10%;
+        margin-left:5%;
+        color:white;
+        font-size:20px;
+        text-align:center;
+        line-height:44px;
+        margin-top:25%;
+    }
+
+    .farm-div{
+        text-align:center;
+        background-color:white transparent;
+        margin-top:15%;
+        font-size:28px;
+        line-height:40px;
+    }
+    #this{
+        font-size:26px;
+        color:rgb(2,2,29);
+        margin-left:5%;
+
+    }
+}
+

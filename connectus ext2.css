@@ -1,0 +1,1319 @@
+body{
+    background-image: url("ConnectUS\ bg.gif");
+    background-size:700px;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border:0;
+    background-repeat:repeat;
+} 
+.dropdown{
+    background-color:rgb(2,2,29);
+    height:15%;
+    width:100%;
+    line-height:40px;
+    position:absolute;
+    position:fixed;
+    margin-top:-15%;
+}
+.dropbtn {
+    display:none;
+    background-color: rgb(71, 158, 216);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height:20%;
+    width:15%;
+  }
+.dropdown-content {
+    display: contents;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow:auto;
+  }
+#image{
+    margin-top:-1%;
+    margin-left:-2%;
+}
+.list{
+    list-style:none;
+    float:right;
+    font-size:14px;
+    margin-top:2%;
+}
+.list a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+#li1{
+    margin-left:-510%;
+    margin-top:5%;
+    text-decoration:none;
+}
+#li2{
+    margin-left:-440%;
+    margin-top:-29%;
+}
+#li3{
+    margin-left:-360%;
+    margin-top:-28%;
+}
+#li3 a{
+    color:rgb(44, 203, 214);
+}
+#li4{
+    margin-left:-290%;
+    margin-top:-28%;
+}
+#li5{
+    margin-left:-225%;
+    margin-top:-28%;
+}
+#li6{
+    margin-left:-135%;
+    margin-top:-30%;
+}
+#li6 div{
+    background-color:blue transparent;
+    width:95px;
+    height:40px;
+    border-radius:40px 40px;
+    border:2px solid rgb(77, 125, 187);
+    text-align: center;
+}
+#li6 div:hover{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(82, 111, 192);
+}
+#li7{
+    margin-left:-50%;
+    margin-top:-32%;
+}
+#li7 div{
+    background-color:blue transparent;
+    height:40px;
+    width:135px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(12, 87, 185);
+}
+#li7 div:hover{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(82, 111, 192);
+}
+.main-div{
+    background-color:white transparent;
+    width:40%;
+    margin-left:27%;
+    height:70%;
+    text-align:center;
+    margin-top:15%;
+}
+.mina-div{
+    background-color:green transparent;
+    margin-left:25%;
+}
+#p1{
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+}
+#p2{
+    color:white;
+    font-size:34px;
+}
+.mino-div{
+    background-color:black transparent;
+    height:40%;
+    font-size:20px;
+    margin-top:15%;
+    }
+.mino-div li{
+    list-style:none;
+    font-size:14px;
+    text-align: center;
+    color:white;
+}
+.mino-div li a{
+    text-decoration: none;
+     color:white;
+    
+    
+}
+.mino-div li div{
+    background-color: green;
+    color:white;
+    font-weight:bold;
+    height:40px;
+    width:140px;
+    border-radius:40px 40px;
+    border:2px solid rgb(12, 87, 185);
+    font-weight: bold;
+}
+#li8 div{
+    background-color: transparent;
+    height:20px;
+    width:135px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:1%;
+    margin-top:-10%;
+    font-weight: bold;
+    padding:3%;
+}
+#li8 a{
+        margin-top:2%;
+        
+}
+#li9 div{
+    background-color: transparent;
+    height:20px;
+    width:135px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:40%;
+    margin-top:-11%;
+    font-weight: bold;
+    padding:3%;
+}
+#li0 div{
+    background-color:transparent;
+    height:20px;
+    width:160px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:78%;
+    margin-top:-11%;
+    font-weight: bold;
+    padding:3%;
+}
+#h1{ 
+    color: #ffff; 
+    font-weight: 100; 
+    font-size: 30px; 
+    margin: 40px 0px 20px; 
+  } 
+   #clockdiv{ 
+       margin-top:4%;
+       margin-left:70%;
+      font-family: sans-serif; 
+      color: #fff; 
+      display: inline-block; 
+      font-weight: 100; 
+      text-align: center; 
+      font-size: 30px; 
+      
+  } 
+  #clockdiv > div{ 
+      padding: 10px; 
+      border-radius: 3px; 
+      background: rgb(55,94,201); 
+      display: inline-block; 
+  } 
+  #clockdiv div > span{ 
+      padding: 15px; 
+      border-radius: 3px; 
+      background:rgb(2, 2, 29); 
+      display: inline-block; 
+  } 
+  .smalltext{ 
+      padding-top: 5px; 
+      font-size: 16px; 
+  } 
+  .over-div{
+      background:rgb(2, 2, 29);
+  }
+  .img-div{
+      margin-top:22%;
+      background:rgb(2,2,29);
+      width:100%;
+      height:90%;
+  }
+  .imgdiv{
+      background-color:white transparent;
+      float:right;
+      height:30%;
+      width:40%;
+      color: rgb(44, 203, 214);
+      font-family: sans-serif;
+      font-size:24px;
+  }
+  #high h1{
+      font-size:20px;
+  }
+  #earn{
+      margin-left:30%;
+      height:20px;
+      width:100px;
+      background-color:blue transparent;
+      border:2px solid blue;
+      border-radius:40px 40px;
+      color:white;
+      font-weight:bold;
+      font-size:14px;
+      text-align:center;
+      padding:3%;
+  }
+  #earn a{
+      text-decoration:none;
+      color:white;
+      text-align:center;
+      align-items: center;
+  }
+  #earn:hover{
+      cursor:pointer;
+      background-color: aqua;
+      color:blue;
+  }
+.road-div{
+    background: rgb(2, 2, 61);
+    background-position-y: 90%;
+}
+.road-div p{
+    font-size:38px;
+    margin-left:35%;
+    color:white;
+}
+#map3{
+    background-color:white transparent;
+    font-size:18px;
+    font-family:sans-serif;
+    color:white;
+    line-height:35px;
+    width:60%;
+    height:20%;
+    margin-left:25%;
+}
+#img3-div{
+    margin-left:-20%;
+    margin-top:8%;
+}
+.icon-div{
+    background-color:white transparent;
+    width:50%;
+    height:80%;
+    margin-top:-40%;
+    margin-left:52%;
+}
+.wal-div{
+    margin-left:20%;
+    margin-top:15%;
+}
+.wal-div p{
+    font-size:38px;
+    font-weight:bold;
+    color:white;
+    margin-left:30%;
+}
+.wallet2{
+    background: white transparent;
+    width:40%;
+    height:70%;
+    float:right;
+    font-size:18px;
+    color:rgb(55,94,201);
+    font-family:sans-serif;
+    margin-right:8%;
+    line-height:35px;
+}
+.last-div{
+    margin-left:69%;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+}
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+    .dropdown{
+        background:rgb(2, 2, 29);
+        height:15%;
+        width:100%;
+        position: absolute;
+        line-height:30px;
+        position:fixed;
+        margin-top:-42%;
+        position:fixed;
+        }
+    .list{
+        list-style:none;
+        float:right;
+        font-size:12px;
+        margin-top:23%;
+    }
+    .list a{
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+    }
+    #li1{
+        margin-left:-335%;
+        margin-top:-20%;
+    }
+    #li2{
+        margin-left:-285%;
+        margin-top:-21%;
+    }
+    #li3{
+        margin-left:-225%;
+        margin-top:-22%;
+    }
+    #li4{
+        margin-left: -175%;
+        margin-top:-22%;
+    }
+    #li5{
+        margin-left:-125%;
+        margin-top:-21%;
+    }
+    #li6{
+        margin-left:-77%;
+        margin-top:-24%;
+    }
+    #li7{
+        margin-left:-5%;
+        margin-top:-31%;
+    }
+    #image{
+        margin-top:12%;
+        margin-left:-5%;
+    }
+  
+    .main-div{
+        background-color:white transparent;
+        width:60%;
+        margin-left:35%;
+        height:70%;
+        text-align:center;
+        margin-top:55%;
+    }
+    .mina-div{
+        background-color:green transparent;
+        margin-left:37%;
+        width:100%;
+        text-align:center;
+    }
+    #p1{
+        font-size:40px;
+        font-weight:bold;
+        color:white;
+    }
+    #p2{
+        color:white;
+        font-size:32px;
+    }
+    .mino-div{
+        background-color:black transparent;
+        height:40%;
+        font-size:20px;
+        margin-top:15%;
+        margin-left:-25%;
+        }
+    .mino-div li{
+        list-style:none;
+        font-size:14px;
+        text-align: center;
+        color:white;
+    }
+    .mino-div li a{
+        text-decoration: none;
+         color:white;
+        
+        
+    }
+    .mino-div li div{
+        background-color: green;
+        color:white;
+        font-weight:bold;
+        height:40px;
+        width:140px;
+        border-radius:40px 40px;
+        border:2px solid rgb(12, 87, 185);
+        font-weight: bold;
+    }
+    #li8 div{
+        background-color: transparent;
+        height:20px;
+        width:135px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:-22%;
+        margin-top:-10%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #li8 a{
+            margin-top:2%;
+            
+    }
+    #li9 div{
+        background-color: transparent;
+        height:20px;
+        width:135px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:48%;
+        margin-top:-16%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #li0 div{
+        background-color:transparent;
+        height:20px;
+        width:160px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:118%;
+        margin-top:-16%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #h1{ 
+        color: #ffff; 
+        font-weight: 100; 
+        font-size: 26px; 
+        margin: 40px 0px 20px; 
+      } 
+       #clockdiv{ 
+           margin-top:25%;
+           margin-left:40%;
+          font-family: sans-serif; 
+          color: #fff; 
+          display: inline-block; 
+          font-weight: 100; 
+          text-align: center; 
+          font-size: 30px; 
+          height:20%;
+          width:150%;
+          
+      } 
+      #clockdiv > div{ 
+          padding: 10px; 
+          border-radius: 3px; 
+          background: rgb(55,94,201); 
+          display: inline-block; 
+          width:10%;
+      } 
+      #clockdiv div > span{ 
+          padding: 13px; 
+          border-radius: 3px; 
+          background:rgb(2, 2, 29); 
+          display: inline-block; 
+          width:35%;
+          text-align:center;
+      } 
+      .smalltext{ 
+          padding-top: 5px; 
+          font-size: 16px; 
+      } 
+      .over-div{
+        background:rgb(2,2,29);
+        width:100%;
+        align-items:center;
+        padding-right:90%;
+    }
+    .img-div{
+        margin-top:22%;
+        background:rgb(2,2,29);
+        width:100%;
+        height:90%;
+        margin-left:-35%;
+    }
+    .img-div img{
+        margin-left:15%;
+      }
+    .imgdiv{
+        background-color:white transparent;
+        float:right;
+        height:30%;
+        width:70%;
+        color: rgb(44, 203, 214);
+        font-family: sans-serif;
+        font-size:24px;
+        margin-top:-140%;
+        margin-right:-90%;
+    }
+    #high h1{
+        font-size:20px;
+    }
+    #earn{
+        margin-left:30%;
+        height:20px;
+        width:100px;
+        background-color:blue transparent;
+        border:2px solid blue;
+        border-radius:40px 40px;
+        color:white;
+        font-weight:bold;
+        font-size:14px;
+        text-align:center;
+        padding:3%;
+    }
+    #earn a{
+        text-decoration:none;
+        color:white;
+        text-align:center;
+        align-items: center;
+    }
+    #earn:hover{
+        cursor:pointer;
+        background-color: aqua;
+        color:blue;
+    }
+  .road-div{
+    background: rgb(2, 2, 61);
+    margin-right:-90%;
+}
+.road-div p{
+    font-size:38px;
+    margin-left:30%;
+    color:white;
+    
+}
+#map3{
+    background-color:white transparent;
+    font-size:18px;
+    font-family:sans-serif;
+    color:white;
+    line-height:35px;
+    height:20%;
+    width:70%;
+    margin-left:20%;
+}
+#img3-div{
+    margin-left:-20%;
+    margin-top:8%;
+}
+.icon-div{
+    background-color:white transparent;
+    width:50%;
+    height:80%;
+    margin-top:-30%;
+    margin-left:52%;
+}
+.wal-div{
+    margin-left:20%;
+    margin-top:95%;
+    height:100%;
+}
+.wal-div p{
+    font-size:38px;
+    font-weight:bold;
+    color:white;
+    margin-left:30%;
+    margin-top:-110%;
+}
+#walimage{
+    width:55%;
+    height:40%;
+    margin-left:-5%;
+    margin-top:40%;
+}
+.wallet2{
+    background: white transparent;
+    width:90%;
+    height:70%;
+    float:right;
+    font-size:18px;
+    color:rgb(55,94,201);
+    font-family:sans-serif;
+    margin-right:-60%;
+    line-height:35px;
+    margin-top:-1%;
+}
+.last-div{
+    margin-left:48%;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+    margin-top:20%;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width:500px){
+    body{
+        width:1024px;
+    }
+    .dropdown{
+        background-color:rgb(2,2,29);
+        height:15%;
+        width:100%;
+        line-height:40px;
+        position:absolute;
+        position:fixed;
+        margin-top:-35%;
+    }
+    #image{
+        margin-top:9%;
+        margin-left:-2%;
+    }
+    .list{
+        list-style:none;
+        float:right;
+        font-size:16px;
+        margin-top:10%;
+    }
+    .list a{
+        text-decoration:none;
+        color:white;
+        font-weight:bold;
+        float:none;
+    }
+    #li1{
+        margin-left:-470%;
+        margin-top:6%;
+        text-decoration:none;
+    }
+    #li2{
+        margin-left:-400%;
+        margin-top:-28%;
+    }
+    #li3{
+        margin-left:-320%;
+        margin-top:-28%;
+    }
+    #li3 a{
+        color:rgb(44, 203, 214);
+    }
+    #li4{
+        margin-left:-250%;
+        margin-top:-28%;
+    }
+    #li5{
+        margin-left:-190%;
+        margin-top:-29%;
+    }
+    #li6{
+        margin-left:-130%;
+        margin-top:-30%;
+    }
+    #li6 div{
+        background-color:blue transparent;
+        width:95px;
+        height:40px;
+        border-radius:40px 40px;
+        border:2px solid rgb(77, 125, 187);
+        text-align: center;
+    }
+    #li6 div:hover{
+        cursor:pointer;
+        color:white;
+        background-color: rgb(82, 111, 192);
+    }
+    #li7{
+        margin-left:-55%;
+        margin-top:-32%;
+    }
+    #li7 div{
+        background-color:blue transparent;
+        height:40px;
+        width:130px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(12, 87, 185);
+        font-size:15px;
+        font-weight:bold;
+    }
+    #li7 div:hover{
+        cursor:pointer;
+        color:white;
+        background-color: rgb(82, 111, 192);
+    }
+    .main-div{
+        background-color:white transparent;
+        width:60%;
+        margin-left:20%;
+        height:70%;
+        text-align:center;
+        margin-top:30%;
+    }
+    .mina-div{
+        background-color:green transparent;
+        margin-left:-5%;
+    }
+    #p1{
+        font-size:40px;
+        font-weight:bold;
+        color:white;
+    }
+    #p2{
+        color:white;
+        font-size:34px;
+    }
+    .mino-div{
+        background-color:black transparent;
+        height:40%;
+        font-size:20px;
+        margin-top:15%;
+        margin-left:-25%;
+        }
+    .mino-div li{
+        list-style:none;
+        font-size:14px;
+        text-align: center;
+        color:white;
+    }
+    .mino-div li a{
+        text-decoration: none;
+         color:white;
+        
+        
+    }
+    .mino-div li div{
+        background-color: green;
+        color:white;
+        font-weight:bold;
+        height:40px;
+        width:140px;
+        border-radius:40px 40px;
+        border:2px solid rgb(12, 87, 185);
+        font-weight: bold;
+    }
+    #li8 div{
+        background-color: transparent;
+        height:20px;
+        width:135px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:10%;
+        margin-top:-10%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #li8 a{
+            margin-top:2%;
+            
+    }
+    #li9 div{
+        background-color: transparent;
+        height:20px;
+        width:135px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:40%;
+        margin-top:-9%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #li0 div{
+        background-color:transparent;
+        height:20px;
+        width:160px;
+        text-align:center;
+        border-radius:40px 40px;
+        border:2px solid rgb(10, 6, 66);
+        margin-left:70%;
+        margin-top:-9%;
+        font-weight: bold;
+        padding:3%;
+    }
+    #h1{ 
+        color: #ffff; 
+        font-weight: 100; 
+        font-size: 26px; 
+        margin: 40px 0px 20px; 
+      } 
+       #clockdiv{ 
+           margin-top:25%;
+           margin-left:53%;
+          font-family: sans-serif; 
+          color: #fff; 
+          display: inline-block; 
+          font-weight: 100; 
+          text-align: center; 
+          font-size: 30px; 
+          height:20%;
+          width:50%;
+          
+      } 
+      #clockdiv > div{ 
+          padding: 10px; 
+          border-radius: 3px; 
+          background: rgb(55,94,201); 
+          display: inline-block; 
+      } 
+      #clockdiv div > span{ 
+          padding: 15px; 
+          border-radius: 3px; 
+          background:rgb(2, 2, 29); 
+          display: inline-block; 
+      } 
+      .smalltext{ 
+          padding-top: 5px; 
+          font-size: 16px; 
+      } 
+      .over-div{
+        background:rgb(2,2,29);
+        width:100%;
+        align-items:center;
+        margin-right:-15%;
+        padding-right:-75%;
+    }
+    .img-div{
+        margin-top:22%;
+        background:rgb(2,2,29);
+        width:100%;
+        height:90%;
+        margin-left:-15%;
+        padding-right:-5%;
+    }
+    .imgdiv{
+        background-color:white transparent;
+        float:right;
+        height:30%;
+        width:40%;
+        color: rgb(44, 203, 214);
+        font-family: sans-serif;
+        font-size:24px;
+        margin-top:-45%;
+        margin-left:60%;
+    }
+    #high h1{
+        font-size:20px;
+    }
+    #earn{
+        margin-left:30%;
+        height:20px;
+        width:100px;
+        background-color:blue transparent;
+        border:2px solid blue;
+        border-radius:40px 40px;
+        color:white;
+        font-weight:bold;
+        font-size:14px;
+        text-align:center;
+        padding:3%;
+    }
+    #earn a{
+        text-decoration:none;
+        color:white;
+        text-align:center;
+        align-items: center;
+    }
+    #earn:hover{
+        cursor:pointer;
+        background-color: aqua;
+        color:blue;
+    }
+  .road-div{
+    background: rgb(2, 2, 61);
+    background-position-y: 90%;
+    margin-right:-5%;
+}
+.road-div p{
+    font-size:38px;
+    margin-left:35%;
+    color:white;
+}
+#map3{
+    background-color:white transparent;
+    font-size:18px;
+    font-family:sans-serif;
+    color:white;
+    line-height:35px;
+}
+#img3-div{
+    margin-left:-5%;
+    margin-top:8%;
+}
+.icon-div{
+    background-color:white transparent;
+    width:50%;
+    height:80%;
+    margin-top:-30%;
+    margin-left:52%;
+}
+.wal-div{
+    margin-left:20%;
+    margin-top:15%;
+}
+.wal-div p{
+    font-size:38px;
+    font-weight:bold;
+    color:white;
+    margin-left:30%;
+}
+#walimage{
+    width:55%;
+    height:40%;
+    margin-left:-5%;
+}
+.wallet2{
+    background: white transparent;
+    width:40%;
+    height:70%;
+    float:right;
+    font-size:18px;
+    color:rgb(55,94,201);
+    font-family:sans-serif;
+    margin-right:2%;
+    line-height:35px;
+}
+.last-div{
+    margin-left:48%;
+    font-weight:bold;
+    font-size:18px;
+    color:white;
+    margin-top:10%;
+}
+}
+
+
+
+@media only screen and (width: 1792px){
+.dropdown{
+    background-color:rgb(2, 2, 29);
+    height:20%;
+    width:100%;
+    line-height:40px;
+    position:absolute;
+    position:fixed;
+    margin-top:-18%;
+    position:fixed;
+}
+#image{
+    margin-top:2%;
+    margin-left:-1%;
+}
+.list{
+    list-style:none;
+    float:right;
+    font-size:18px;
+    margin-top:3%;
+}
+.list a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    float:none;
+}
+#li1{
+    margin-left:-600%;
+    margin-top:6%;
+    text-decoration:none;
+}
+#li2{
+    margin-left:-520%;
+    margin-top:-26%;
+}
+#li3{
+    margin-left:-430%;
+    margin-top:-27%;
+}
+#li3 a{
+    color:rgb(44, 203, 214);
+}
+#li4{
+    margin-left:-350%;
+    margin-top:-26%;
+}
+#li5{
+    margin-left:-270%;
+    margin-top:-27%;
+}
+#li6{
+    margin-left:-170%;
+    margin-top:-27%;
+}
+#li6 div{
+    background-color:blue transparent;
+    width:95px;
+    height:40px;
+    border-radius:40px 40px;
+    border:2px solid rgb(77, 125, 187);
+    text-align: center;
+}
+#li6 div:hover{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(82, 111, 192);
+}
+#li7{
+    margin-left:-80%;
+    margin-top:-30%;
+}
+#li7 div{
+    background-color:blue transparent;
+    height:40px;
+    width:145px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(12, 87, 185);
+    font-size:16px;
+    font-weight:bold;
+}
+#li7 div:hover{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(82, 111, 192);
+}
+.main-div{
+    background-color:white transparent;
+    width:60%;
+    margin-left:28%;
+    height:70%;
+    text-align:center;
+    margin-top:20%;
+}
+.mina-div{
+    background-color:green transparent;
+    margin-left:-5%;
+}
+#p1{
+    font-size:40px;
+    font-weight:bold;
+    color:white;
+}
+#p2{
+    color:white;
+    font-size:34px;
+}
+.mino-div{
+    background-color:black transparent;
+    height:40%;
+    font-size:20px;
+    margin-top:15%;
+    margin-left:-7%;
+    }
+.mino-div li{
+    list-style:none;
+    font-size:14px;
+    text-align: center;
+    color:white;
+}
+.mino-div li a{
+    text-decoration: none;
+     color:white;
+    
+    
+}
+.mino-div li div{
+    background-color: green;
+    color:white;
+    font-weight:bold;
+    height:30px;
+    width:140px;
+    border-radius:40px 40px;
+    border:2px solid rgb(12, 87, 185);
+    font-weight: bold;
+}
+#li8 div{
+    background-color: transparent;
+    height:10px;
+    width:135px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:10%;
+    margin-top:-10%;
+    font-weight: bold;
+    padding:3%;
+}
+#li8 a{
+        margin-top:2%;
+        
+}
+#li9 div{
+    background-color: transparent;
+    height:10px;
+    width:135px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:40%;
+    margin-top:-7.5%;
+    font-weight: bold;
+    padding:3%;
+}
+#li0 div{
+    background-color:transparent;
+    height:10px;
+    width:160px;
+    text-align:center;
+    border-radius:40px 40px;
+    border:2px solid rgb(10, 6, 66);
+    margin-left:70%;
+    margin-top:-7%;
+    font-weight: bold;
+    padding:3%;
+}
+#h1{ 
+    color: #ffff; 
+    font-weight: 100; 
+    font-size: 26px; 
+    margin: 40px 0px 20px; 
+  } 
+   #clockdiv{ 
+       margin-top:25%;
+       margin-left:53%;
+      font-family: sans-serif; 
+      color: #fff; 
+      display: inline-block; 
+      font-weight: 100; 
+      text-align: center; 
+      font-size: 30px; 
+      height:30%;
+      width:60%;
+      
+  } 
+  #clockdiv > div{ 
+      padding: 10px; 
+      border-radius: 3px; 
+      background: rgb(55,94,201); 
+      display: inline-block; 
+      height:30%;
+      width:8%;
+  } 
+  #clockdiv div > span{ 
+      padding: 15px; 
+      border-radius: 3px; 
+      background:rgb(2, 2, 29); 
+      display: inline-block; 
+      height:30%;
+      width:20%;
+  } 
+  .smalltext{ 
+      padding-top: 5px; 
+      font-size: 16px; 
+  } 
+  .over-div{
+    background:rgb(2,2,29);
+    width:100%;
+    align-items:center;
+    padding-right:13%;
+}
+.img-div{
+    margin-top:22%;
+    background:rgb(2,2,29);
+    width:100%;
+    height:90%;
+    margin-left:-2%;
+    padding-right:-5%;
+}
+.imgdiv{
+    background-color:white transparent;
+    float:right;
+    height:30%;
+    width:40%;
+    color: rgb(44, 203, 214);
+    font-family: sans-serif;
+    font-size:24px;
+    margin-top:-25%;
+    margin-left:60%;
+}
+#high h1{
+    font-size:20px;
+}
+#earn{
+    margin-left:30%;
+    height:20px;
+    width:100px;
+    background-color:blue transparent;
+    border:2px solid blue;
+    border-radius:40px 40px;
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    text-align:center;
+    padding:3%;
+}
+#earn a{
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    align-items: center;
+}
+#earn:hover{
+    cursor:pointer;
+    background-color: aqua;
+    color:blue;
+}
+.road-div{
+background: rgb(2, 2, 61);
+background-position-y: 90%;
+margin-right:-13%;
+font-size:24px;
+}
+.road-div p{
+font-size:38px;
+margin-left:35%;
+color:white;
+}
+#map3{
+background-color:white transparent;
+font-size:24px;
+font-family:sans-serif;
+color:white;
+line-height:35px;
+}
+#img3-div{
+margin-left:-5%;
+margin-top:8%;
+}
+.icon-div{
+background-color:white transparent;
+width:50%;
+height:80%;
+margin-top:-30%;
+margin-left:52%;
+font-size:24px;
+}
+.wal-div{
+margin-left:25%;
+margin-top:15%;
+}
+.wal-div p{
+font-size:42px;
+font-weight:bold;
+color:white;
+margin-left:35%;
+}
+#walimage{
+width:55%;
+height:40%;
+margin-left:-5%;
+}
+.wallet2{
+background: white transparent;
+width:40%;
+height:70%;
+float:right;
+font-size:20px;
+color:rgb(55,94,201);
+font-family:sans-serif;
+margin-right:0%;
+line-height:35px;
+margin-top:7%;
+}
+.last-div{
+margin-left:70%;
+font-weight:bold;
+font-size:24px;
+color:white;
+margin-top:10%;
+}
+}
